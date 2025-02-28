@@ -20,7 +20,7 @@ async function bootstrap() {
     }),
   );
 
-  app.setGlobalPrefix('/api/v1');
+ 
   app.useWebSocketAdapter(new IoAdapter(app));
 
   await app.listen(3000); 
